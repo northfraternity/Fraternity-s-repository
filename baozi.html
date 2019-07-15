@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baozi</title>
+</head>
+<body>
+<script type="text/javascript">
+    function fn(look = null) {
+        // 如果看见西瓜
+        if(look === '西瓜'){
+            // 买一个包子
+            console.log('一个包子');
+        }else {
+            // 其他情况 买一斤包子
+            console.log('一斤包子')
+        }
+    }
+    // 看见西瓜了！
+    fn('西瓜');  //输出 一个包子
+    // 看见饺子了！
+    fn('饺子');  //输出 一斤包子
+    // 啥都没看见
+    fn() //输出 一斤包子
+</script>
+</body>
+</html>
